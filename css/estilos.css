@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Lato&family=Nothing+You+Could+Do&family=Solitreo&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    /*margin: 0;
+    padding: 0;*/
+
+}
+
+.HeaderWrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color:  rgb(183, 183,183);
+ 
+}
+.imagenlibros {
+    object-fit: cover;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+}
+.TextoWrap {
+    background-color: rgb(183, 183,183);
+    width: 50%;
+    padding-top: 60px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.Animate {
+    font-family: 'Nothing You Could Do', cursive;
+    color: black;
+    font-size: 3rem;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+.GuadaLujan {
+    color: black;
+    font-family: 'Fredericka the Great';
+    font-size: 2.5 rem;
+    font-weight: 500;
+
+    
+
+}
+
+.Clases {
+    color: black;
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+
+.ContenedorClasesOnlinePresenciales {
+    background-color: rgb(146, 72, 210);
+    display: flex;
+    flex-direction: row;
+}
+
+.Pasos {
+    width: 50vw;
+}
+
+
+.card-bodyClases {
+    padding: 1rem 1rem;
+    align-items: center;
+    
+}
+
+.cardOpiniones {    
+    padding: 1rem 1rem;
+    display: flex;
+    height: 270px;
+    align-items: center;
+    background-color: #fff;
+    
+}
+
+
+
+.TodosPodemos {
+    font-family: 'Nothing You Could Do', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+.ClasesWrap {
+    background: linear-gradient(to right,rgba(255, 255, 255,0.3),rgba(0, 0, 0,0.5)10%,rgba(0,0,0,0.95)20%,rgba(0,0,0,0.95)80%,rgba(0, 0, 0,0.5)90%,rgba(255, 255, 255,0.3)95%), url(./piano_6.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    background-position: center;
+}
+.CardsClases {
+    display: flex;
+    background-color: rgb(138, 127, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+.ClasesPresenciales {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.SectionClases {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    
+}
+
+
+
+.ImagenPiano {
+    width: 30%;
+}
+
+.ContainerPasos {
+    /*background-color: #c2c9fa;*/
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin-left: 25px;
+    padding: 15px;
+
+
+}
+
+.Pasos1y2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Paso1 {
+    width: 50%;
+    padding: 3px;
+    text-align: center;
+}
+
+.WrapPiano {
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.153),rgb(0 0 0 /.5)),url(./piano_2.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    background-position: right;
+}
+
+.fotoPiano {
+    height: 400px;
+    width: auto;
+    margin-right: 0;
+}
+
+.FondoContacto {
+    background-color: rgba(147, 137, 253, 0.785);
+}
+
+.Contacto {
+    color: black;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.gracias {    
+    background-size: cover;
+    position: relative;
+    color:white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*height: 100vh;*/
+}
+
+@media screen and (max-width:600px)  {
+   
+
+    .HeaderWrap {
+        flex-direction: column-reverse;
+        }
+        
+    .TextoWrap {
+        padding-top: 50px;
+        width: 90%;
+    }
+
+    .GuadaLujan {
+        font-size: 1.5rem;
+    }
+
+    .Animate {
+        font-size: 2rem;
+        font-weight: 500;
+    
+    }
+
+    .Clases {
+        font-size: 1rem;
+    }
+    .SectionClases {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Pasos1y2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Paso1 {
+        width: 100%;
+    }
+
+    .ImagenPiano {
+        display: none;
+    }
+
+    .imagenlibros {
+        width: 100%;
+        object-fit: scale-down;
+        object-position: top;
+        overflow:hidden;
+    }
+
+    .Pasos {
+        text-align: center;
+        padding: 2px;
+        background-image: url(./piano_2.jpg);
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: right;
+        background-position: right;
+    }
+
+    .SobreMi{
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .Formulario {
+        width: 100vw;
+    }
+
+    .ContainerPasos {
+        /*background-color: #c2c9fa;*/
+        width: 90%;
+        justify-content: center;
+        margin: auto;
+    
+    }
+
+    .ImagenPiano {
+        width: 100%;
+    }
+
+
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 0.25px;
+    transition:0.3s;
+    z-index: 999;
+}
+
+.logo a {
+    display: block;
+
+}
+.logo a img{
+    display: block;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    transition: 0.5s;
+
+}
+
+.menu li {
+    list-style-type: none;
+
+}
+.menu li a {
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    padding: 15px 25px;
+    font-size: 18px;
+    line-height: 1;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    box-shadow: 0 -5px 0px #fff inset, 500px 0 0 rgba(255,255,255,0.03) inset;
+    padding: 10px 10px 15px 15px;  
+}
+
+
+.hamburger {
+    position: relative;
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 2;
+    transition: 0.3s;
+}
+.hamburger:before,
+.hamburger:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    right: 0;
+    background: #fff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.hamburger:before {
+    top:-10px;
+    width: 20px;
+}
+.hamburger:after {
+    top:10px;
+    width: 25px;
+}
+
+.toggle-menu {
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.hamburger,
+.toggle-menu { 
+display: none;
+}
+
+.navigation input:checked ~ .hamburger {
+    background: transparent;
+}
+.navigation input:checked ~ .hamburger:before {
+    top: 0;
+    transform: rotate(-45deg);
+    width: 30px;
+
+}
+
+.navigation input:checked ~ .hamburger:after {
+    top: 0;
+    transform: rotate(45deg);
+    width: 30px; 
+}
+
+.navigation input:checked ~ .menu {
+    right: 0;
+    box-shadow: -20px 0 40px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+
+
+@media screen and (max-width:992px) {
+    .hamburger,
+    .toggle-menu {
+        display: block;
+
+    }
+    .header{
+        padding: 20px 20px;
+    }
+    .menu {
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        background: rgb(0, 0, 0);
+        width: 300px;
+        height: 100%;
+        padding-top: 65px;
+
+    }
+    .menu li {
+        width: 100%;
+
+    }
+    .menu li a,
+    .menu li a:hover {
+        padding: 30px;
+        font-size: 24px;
+        box-shadow: 0 1px 0 rgba(255, 255, 255,0.1)
+        inset;
+    }
+}
+
+/*OPINIONES*/
+
+
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  .kard{
+    border-radius: 25px;
+    background-color: #FFF;
+    height: 240px;
+
+  }
+  .image-content,
+  .kard-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+    /*border-style: solid;*/
+
+  }
+  .image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+  }
+  .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4070F4;
+    border-radius: 25px 25px 0 25px;
+  }
+  .overlay::before,
+  .overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4070F4;
+  }
+  .overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+  }
+  .kard-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+  }
+  .kard-image .kard-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4070F4;
+  }
+  .name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+  }
+  .description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+  }
+  .button{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #4070F4;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button:hover{
+    background: #265DF2;
+  }
+  
+  .swiper-navBtn{
+    color: #6E93f7;
+    transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover{
+    color: #4070F4;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+    font-size: 35px;
+  }
+  .swiper-button-next{
+    right: 0;
+  }
+  .swiper-button-prev{
+    left: 0;
+  }
+  .swiper-pagination-bullet{
+    background-color: #6E93f7;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: #4070F4;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+
+    .gracias {    
+        width: 100%;
+        height: 50%;
+        background-size:100%;
+        background-color: #1F2022;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0px;
+        position: absolute;
+        color:white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  }
+}
