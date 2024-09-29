@@ -317,39 +317,7 @@
 
 
 
-<div id="Contacto" class="container-fluid text-center p-4 CardsClases">
-    
-    <div class="container-lg col-8 d-flex justify-content-center pb-4">        
-    
-        <div class="border-3 col-lg-11">
-        <h2 class="titulo mt-2">Contacto</h2> 
-        <form name="form1" method="get" action="insertar_registro.php">
-            <div class="m-2">
-                
-                <label for="nombre"></label>
-                <input type="text" name="nombre" class="form-control border border-secondary-subtle shadow" id="nombre" placeholder="Nombre" required> <!--class="form-control"-->
-                
-                <label for="email"></label>
-                <input type="email" name="email" class="form-control border border-secondary-subtle shadow" placeholder="Email" required>
-                
-                <!--div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div-->
-            </div>
-            <div class="m-2 pb-2">
-                <label for="motivo"></label>
-                <input type="text" name="motivo" class="form-control border border-secondary-subtle shadow" placeholder="Motivo" id="motivo" required> <!--class="form-control" -->
-                
-                <label for="mensaje"></label>
-                <textarea name="mensaje" class="form-control border border-secondary-subtle shadow" placeholder="Mensaje"  id="mensaje" cols="10" rows="5" required></textarea>
-            </div>
 
-     
-            <button class="rounded text-center p-2 px-3 mx-1 border border-secondary boton shadow"><a class="text-decoration-none text-dark" id=''  href="https://wa.me/5491141704229" Target="_blank">Enviar Whatsapp</a></button>
-            <button type="submit" class="rounded text-center p-2 px-4 mx-1 border border-secondary boton shadow"> Enviar Mail </button>
-        </form> 
-    </div>
-
-    
-</div>
 <!--footer>
     <ul class="nav justify-content-center">
         <li class="nav-item">
