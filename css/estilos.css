@@ -3,42 +3,58 @@
 
 * {
     box-sizing: border-box;
-    /*margin: 0;
-    padding: 0;*/
+    margin: 0;
+    /*padding: 0;*/
 
 }
 
+.boton{
+    background-color: #ffb700;
+    padding: 2;
+    border: 1px;
+}
+
+.body {
+    padding: 90px,20px, 0 ;
+    /*background-color: #ffe7ac;*/
+    background-color: #fff5db;
+}
 .HeaderWrap {
-    display: flex;
+    /*display: flex;
     flex-direction: row;
     align-items: center;
     height: 100vh;
     width: 100%;
-    background-color:  rgb(183, 183,183);
+    /*background-color:  #cac8c4;*/
+    background-color: #f4efe2;
  
 }
 .imagenlibros {
-    object-fit: cover;
-    width: 50%;
+    /*object-fit: cover;
+    width: 40%;
     height: 100vh;
-    overflow: hidden;
+    
+    margin-left: 0;
+    overflow: hidden;*/
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    
 }
 .TextoWrap {
-    background-color: rgb(183, 183,183);
-    width: 50%;
-    padding-top: 60px;
+    background-color: #f4efe2;
+    /*width: 50%;
+    /*padding-top: 60px;
     justify-content: center;
     text-align: center;
-    align-items: center;
+    align-items: center;*/
 }
 
-
-
 .Animate {
-    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Montserrat', sans-serif;
     color: black;
     font-size: 3rem;
-    text-shadow: 1px 1px 0px #000000;
+    /*text-shadow: 1px 1px 0px #000000;*/
 }
 
 .GuadaLujan {
@@ -46,32 +62,22 @@
     font-family: 'Fredericka the Great';
     font-size: 2.5 rem;
     font-weight: 500;
+}
 
-    
-
+.titulo{
+    font-family: 'Montserrat', sans-serif;    
+    font-weight: 400;
 }
 
 .Clases {
+    font-family: 'Montserrat', sans-serif;
     color: black;
     font-size: 1.3rem;
     line-height: 30px;
 }
 
-.ContenedorClasesOnlinePresenciales {
-    background-color: rgb(146, 72, 210);
-    display: flex;
-    flex-direction: row;
-}
-
 .Pasos {
     width: 50vw;
-}
-
-
-.card-bodyClases {
-    padding: 1rem 1rem;
-    align-items: center;
-    
 }
 
 .cardOpiniones {    
@@ -83,35 +89,17 @@
     
 }
 
-
-
-.TodosPodemos {
-    font-family: 'Nothing You Could Do', cursive;
-    color: white;
-    font-size: 2rem;
-}
-
-.ClasesWrap {
-    background: linear-gradient(to right,rgba(255, 255, 255,0.3),rgba(0, 0, 0,0.5)10%,rgba(0,0,0,0.95)20%,rgba(0,0,0,0.95)80%,rgba(0, 0, 0,0.5)90%,rgba(255, 255, 255,0.3)95%), url(./piano_6.jpg);
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: right;
-    background-position: center;
-}
 .CardsClases {
-    display: flex;
-    background-color: rgb(138, 127, 255);
-    align-items: center;
-    justify-content: center;
+    background-color: #FFE0B2;
+    /*border-width: 2px; 
+    border-style: solid;
+    border-color: #FF9800;*/
 }
 
-.ClasesPresenciales {
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 1.3rem;
-    color: rgb(0, 0, 0);
-    font-weight: 500;
+.CardsClases2 {
+    background-color: #FF9800; 
 }
+
 
 .SectionClases {
     width: 100%;
@@ -120,7 +108,6 @@
     overflow: hidden;
     
 }
-
 
 
 .ImagenPiano {
@@ -166,16 +153,6 @@
     margin-right: 0;
 }
 
-.FondoContacto {
-    background-color: rgba(147, 137, 253, 0.785);
-}
-
-.Contacto {
-    color: black;
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 2.5rem;
-    font-weight: 700;
-}
 
 .gracias {    
     background-size: cover;
@@ -191,9 +168,9 @@
 @media screen and (max-width:600px)  {
    
 
-    .HeaderWrap {
+    /*.HeaderWrap {
         flex-direction: column-reverse;
-        }
+        }*/
         
     .TextoWrap {
         padding-top: 50px;
@@ -205,8 +182,9 @@
     }
 
     .Animate {
+        font-family: 'Montserrat', sans-serif;
         font-size: 2rem;
-        font-weight: 500;
+        font-weight: 300;
     
     }
 
@@ -249,16 +227,6 @@
         background-position: right;
     }
 
-    .SobreMi{
-        width: 100vw;
-        padding: 0;
-        margin: 0;
-        text-align: center;
-    }
-
-    .Formulario {
-        width: 100vw;
-    }
 
     .ContainerPasos {
         /*background-color: #c2c9fa;*/
@@ -275,17 +243,7 @@
 
 }
 
-.header {
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(0, 0, 0);
-    padding: 0.25px;
-    transition:0.3s;
-    z-index: 999;
-}
+
 
 .logo a {
     display: block;
@@ -331,112 +289,6 @@
     padding: 10px 10px 15px 15px;  
 }
 
-
-.hamburger {
-    position: relative;
-    width: 30px;
-    height: 4px;
-    background-color: #fff;
-    border-radius: 10px;
-    cursor: pointer;
-    z-index: 2;
-    transition: 0.3s;
-}
-.hamburger:before,
-.hamburger:after {
-    content: "";
-    position: absolute;
-    height: 4px;
-    right: 0;
-    background: #fff;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.hamburger:before {
-    top:-10px;
-    width: 20px;
-}
-.hamburger:after {
-    top:10px;
-    width: 25px;
-}
-
-.toggle-menu {
-    position: absolute;
-    width: 30px;
-    height: 100%;
-    z-index: 3;
-    cursor: pointer;
-    opacity: 0;
-}
-
-.hamburger,
-.toggle-menu { 
-display: none;
-}
-
-.navigation input:checked ~ .hamburger {
-    background: transparent;
-}
-.navigation input:checked ~ .hamburger:before {
-    top: 0;
-    transform: rotate(-45deg);
-    width: 30px;
-
-}
-
-.navigation input:checked ~ .hamburger:after {
-    top: 0;
-    transform: rotate(45deg);
-    width: 30px; 
-}
-
-.navigation input:checked ~ .menu {
-    right: 0;
-    box-shadow: -20px 0 40px rgba(0,0,0,0.3);
-}
-
-
-
-
-
-
-
-@media screen and (max-width:992px) {
-    .hamburger,
-    .toggle-menu {
-        display: block;
-
-    }
-    .header{
-        padding: 20px 20px;
-    }
-    .menu {
-        justify-content: start;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        right: -300px;
-        background: rgb(0, 0, 0);
-        width: 300px;
-        height: 100%;
-        padding-top: 65px;
-
-    }
-    .menu li {
-        width: 100%;
-
-    }
-    .menu li a,
-    .menu li a:hover {
-        padding: 30px;
-        font-size: 24px;
-        box-shadow: 0 1px 0 rgba(255, 255, 255,0.1)
-        inset;
-    }
-}
 
 /*OPINIONES*/
 
@@ -519,27 +371,17 @@ display: none;
     color: #707070;
     text-align: center;
   }
-  .button{
-    border: none;
-    font-size: 16px;
-    color: #FFF;
-    padding: 8px 16px;
-    background-color: #4070F4;
-    border-radius: 6px;
-    margin: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
+ 
   .button:hover{
     background: #265DF2;
   }
   
   .swiper-navBtn{
-    color: #6E93f7;
+    color: #FF9800;
     transition: color 0.3s ease;
   }
   .swiper-navBtn:hover{
-    color: #4070F4;
+    color: #FF5722;
   }
   .swiper-navBtn::before,
   .swiper-navBtn::after{
@@ -552,13 +394,22 @@ display: none;
     left: 0;
   }
   .swiper-pagination-bullet{
-    background-color: #6E93f7;
+    background-color: #FF9800;
     opacity: 1;
   }
   .swiper-pagination-bullet-active{
-    background-color: #4070F4;
+    background-color: #FF5722;
   }
+.coloresposibles{
+  background-color:#ffe7ac;
+  background-color:#ffb700;
+  background-color:#FF9800; 
+  background-color: #FFC107; 
+  background-color:#F57C00; 
+  background-color:#FF5722;
+      
   
+}
   @media screen and (max-width: 768px) {
     .slide-content{
       margin: 0 10px;
