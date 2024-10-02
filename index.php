@@ -50,42 +50,43 @@
     </header>
 
     <section>
-        <div class="HeaderWrap row align-items-center justify-content-center">
-            <!--#896eff-->
-            <div class="col-12 col-md-5 align-items-center">
-            <img src="./css/perfilClases.jpeg" alt="" class="img-fluid">
-            </div>
-            <div class="col-12 col-md-6 TextoWrap">
-                <h2 class="Animate">Todos podemos cantar!</h2>
-                <p class="Clases"> Querés <!--mejorar tu afinación y--> sentirte más cómodo con tu voz? <br> Querés mejorar la emisión y cansarte menos?</p>
-                <p class="Clases"> Podés tomar clase tanto si nunca cantaste en tu vida o si ya venís haciéndolo y querés perfeccionarte.</p>                              
-                <p class="Animate ps-3"> Animate! </p> 
-                <h1 class="GuadaLujan">Guada Luján - Vocal Coach</h1>
-                <p class="Clases">Clases de canto <!--online y presenciales--> para todos los niveles</p>
+        <div class="container-fluid">
+            <div class="HeaderWrap row align-items-center justify-content-center pt-3 pt-md-0">
+                <!--#896eff-->
+                <div class="col-12 col-md-5 align-items-center">
+                <img src="./css/perfilClases.jpeg" alt="" class="img-fluid rounded">
+                </div>
+                <div class="col-11 col-md-6 TextoWrap">
+                    <h2 class="Animate">Todos podemos cantar!</h2>
+                    <p class="Clases"> Querés <!--mejorar tu afinación y--> sentirte más cómodo con tu voz? <br> Querés mejorar la emisión y cansarte menos?</p>
+                    <p class="Clases"> Podés tomar clase tanto si nunca cantaste en tu vida o si ya venís haciéndolo y querés perfeccionarte.</p>                              
+                    <p class="Animate"> Animate! </p> 
+                    <h1 class="GuadaLujan">Guada Luján - Vocal Coach</h1>
+                    <p class="Clases">Clases de canto <!--online y presenciales--> para todos los niveles</p>
+                </div>
             </div>
         </div>
-    </section>      
-    
+    </section>    
+
     <div id="Clases" class="container-fluid row justify-content-center mt-3 mx-auto"> 
 
         <!--h3>Clases de Canto</h3-->
         <h2 class="text-center titulo mt-3">Elegí la modalidad que te quede más cómoda!</h2>
 
-        <div class="col-sm-3 m-4">
-       
+        <div class="col-sm-3 m-4">       
             <div class="card h-100 shadow CardsClases">
                 <div class="text-center pt-3">
                     <h5 class="text-center Clases">ONLINE</h5> 
                 </div>
-                <div class="px-2 text-center">                  
+                <div class="p-3 text-center">                  
                     <p class="card-text text-center">Aprendé desde la comodidad de tu hogar, desde cualquier parte del país o bien desde el exterior. Sólo necesitás una pc o smartphone con buena conexión.</p>                
                 </div>
             </div>  
         </div>
     
         <div class="col-sm-3 m-4">
-            <div class="card h-100">
-                <div class="text-center pt-2 CardsClases2">
+            <div class="card h-100 shadow CardsClases">
+                <div class="text-center pt-3">
                     <h5 class="text-center Clases">PRESENCIAL</h5>
                 </div>
                 <div class="p-3 text-center my-auto">                  
@@ -299,7 +300,7 @@
 
     <section id="SobreMi" class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-9 p-5">
+            <div class="col-12 col-md-6 p-5">
                 <h3  class="text-center p-2 titulo">Sobre mí</h3>
                 <p class="text-center"> 
                     - Mi pasión es entrenar las voces de mis alumnos y que puedan conseguir desarrollar todo su potencial vocal <br><br>
@@ -308,6 +309,10 @@
                     - Soy egresada del Conservatorio Manuel de Falla con especialidad en Canto<br><br>- Actualmente estoy perfeccionándome en la Universidad Nacional de las Artes 
                 </p>
             </div>
+            <div class="col-12 col-md-4">
+                    <img src="./css/fotolibros.jpeg" alt="" class="img-fluid">
+            </div>
+            
         </div>
 
     </section>
@@ -323,8 +328,8 @@
     
         <div class="border-3 col-lg-11">
         <h2 class="titulo mt-2">Contacto</h2> 
-        <form name="form1" method="get" action="insertar_registro.php">
-            <div class="m-2">
+        <form name="form1" method="get" action="">
+            <div class="m-1">
                 
                 <label for="nombre"></label>
                 <input type="text" name="nombre" class="form-control border border-secondary-subtle shadow" id="nombre" placeholder="Nombre" required> <!--class="form-control"-->
@@ -332,9 +337,9 @@
                 <label for="email"></label>
                 <input type="email" name="email" class="form-control border border-secondary-subtle shadow" placeholder="Email" required>
                 
-                <!--div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div-->
+                <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div-->
             </div>
-            <div class="m-2 pb-2">
+            <div class="pb-2 mb-2">
                 <label for="motivo"></label>
                 <input type="text" name="motivo" class="form-control border border-secondary-subtle shadow" placeholder="Motivo" id="motivo" required> <!--class="form-control" -->
                 

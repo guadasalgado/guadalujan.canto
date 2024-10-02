@@ -3,7 +3,7 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
+    /* margin: 0; */
     /*padding: 0;*/
 
 }
@@ -15,9 +15,10 @@
 }
 
 .body {
-    padding: 90px,20px, 0 ;
+    /* padding: 90px,20px, 0 ; */
     /*background-color: #ffe7ac;*/
     background-color: #fff5db;
+    overflow-x: hidden;
 }
 .HeaderWrap {
     /*display: flex;
@@ -27,6 +28,7 @@
     width: 100%;
     /*background-color:  #cac8c4;*/
     background-color: #f4efe2;
+    overflow: hidden;
  
 }
 .imagenlibros {
@@ -53,7 +55,7 @@
 .Animate {
     font-family: 'Montserrat', sans-serif;
     color: black;
-    font-size: 3rem;
+    font-size: 2rem;
     /*text-shadow: 1px 1px 0px #000000;*/
 }
 
@@ -101,13 +103,13 @@
 }
 
 
-.SectionClases {
+/* .SectionClases {
     width: 100%;
     display: flex;
     flex-direction: row;
     overflow: hidden;
     
-}
+} */
 
 
 .ImagenPiano {
@@ -168,53 +170,50 @@
 @media screen and (max-width:600px)  {
    
 
-    /*.HeaderWrap {
-        flex-direction: column-reverse;
-        }*/
-        
-    .TextoWrap {
+ 
+    /* .TextoWrap {
         padding-top: 50px;
         width: 90%;
-    }
+    } */
 
-    .GuadaLujan {
+    /* .GuadaLujan {
         font-size: 1.5rem;
-    }
+    } */
 
-    .Animate {
+    /* .Animate {
         font-family: 'Montserrat', sans-serif;
         font-size: 2rem;
         font-weight: 300;
     
-    }
+    } */
 
-    .Clases {
+    /* .Clases {
         font-size: 1rem;
     }
     .SectionClases {
         flex-direction: column;
         justify-content: center;
-    }
+    } */
 
     .Pasos1y2 {
         display: flex;
         flex-direction: column;
     }
 
-    .Paso1 {
+    /* .Paso1 {
         width: 100%;
-    }
+    } */
 
     .ImagenPiano {
         display: none;
     }
 
-    .imagenlibros {
+    /* .imagenlibros {
         width: 100%;
         object-fit: scale-down;
         object-position: top;
         overflow:hidden;
-    }
+    } */
 
     .Pasos {
         text-align: center;
@@ -236,9 +235,9 @@
     
     }
 
-    .ImagenPiano {
+    /* .ImagenPiano {
         width: 100%;
-    }
+    } */
 
 
 }
@@ -249,10 +248,10 @@
     display: block;
 
 }
-.logo a img{
+/* .logo a img{
     display: block;
     width: 100%;
-}
+} */
 
 .navigation {
     display: flex;
