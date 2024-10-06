@@ -3,19 +3,17 @@
 
 * {
     box-sizing: border-box;
-    /* margin: 0; */
-    /*padding: 0;*/
-
 }
 
 .boton{
-    background-color: #ffb700;
+    /* background-color: #ffb700; */
+    background-color: #fff5db;
+    /* background-color: #f4efe2; */
     padding: 2;
     border: 1px;
 }
 
 .body {
-    /* padding: 90px,20px, 0 ; */
     /*background-color: #ffe7ac;*/
     background-color: #fff5db;
     overflow-x: hidden;
@@ -32,24 +30,15 @@
  
 }
 .imagenlibros {
-    /*object-fit: cover;
-    width: 40%;
-    height: 100vh;
-    
-    margin-left: 0;
-    overflow: hidden;*/
     width: 80%;
     height: 80%;
     object-fit: contain;
     
 }
 .TextoWrap {
-    background-color: #f4efe2;
-    /*width: 50%;
-    /*padding-top: 60px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;*/
+    /* background-color: #f4efe2; */
+    /* background-color: #f4e2e5; */
+    background-color: #e7e0e1d7;
 }
 
 .Animate {
@@ -59,6 +48,11 @@
     /*text-shadow: 1px 1px 0px #000000;*/
 }
 
+
+.navbar{
+  background-color: #FFA000;
+}
+
 .GuadaLujan {
     color: black;
     font-family: 'Fredericka the Great';
@@ -66,6 +60,25 @@
     font-weight: 500;
 }
 
+#Clases {
+  background: url('./waves.png') no-repeat bottom; 
+  background-size: cover;
+  /* padding-bottom: 120px; */
+}
+
+.zarlanga{
+  background: url('./blob\ \(1\).svg') no-repeat center; 
+  background-size: cover;
+}
+#Contacto {
+  background: url('./waves.png') no-repeat bottom; 
+  background-size: 100% 40%;
+  
+/*   
+  background-size: auto;
+  height: 8%; */
+  /* padding-bottom: 120px; */
+}
 .titulo{
     font-family: 'Montserrat', sans-serif;    
     font-weight: 400;
@@ -78,17 +91,12 @@
     line-height: 30px;
 }
 
-.Pasos {
-    width: 50vw;
-}
-
 .cardOpiniones {    
     padding: 1rem 1rem;
     display: flex;
     height: 270px;
     align-items: center;
-    background-color: #fff;
-    
+    background-color: #fff;    
 }
 
 .CardsClases {
@@ -102,60 +110,6 @@
     background-color: #FF9800; 
 }
 
-
-/* .SectionClases {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    
-} */
-
-
-.ImagenPiano {
-    width: 30%;
-}
-
-.ContainerPasos {
-    /*background-color: #c2c9fa;*/
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    overflow: hidden;
-    margin-left: 25px;
-    padding: 15px;
-
-
-}
-
-.Pasos1y2 {
-    display: flex;
-    flex-direction: row;
-}
-
-.Paso1 {
-    width: 50%;
-    padding: 3px;
-    text-align: center;
-}
-
-.WrapPiano {
-    background: linear-gradient(to right,rgba(255, 255, 255, 0.153),rgb(0 0 0 /.5)),url(./piano_2.jpg);
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: right;
-    background-position: right;
-}
-
-.fotoPiano {
-    height: 400px;
-    width: auto;
-    margin-right: 0;
-}
-
-
 .gracias {    
     background-size: cover;
     position: relative;
@@ -167,127 +121,6 @@
     /*height: 100vh;*/
 }
 
-@media screen and (max-width:600px)  {
-   
-
- 
-    /* .TextoWrap {
-        padding-top: 50px;
-        width: 90%;
-    } */
-
-    /* .GuadaLujan {
-        font-size: 1.5rem;
-    } */
-
-    /* .Animate {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 2rem;
-        font-weight: 300;
-    
-    } */
-
-    /* .Clases {
-        font-size: 1rem;
-    }
-    .SectionClases {
-        flex-direction: column;
-        justify-content: center;
-    } */
-
-    .Pasos1y2 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    /* .Paso1 {
-        width: 100%;
-    } */
-
-    .ImagenPiano {
-        display: none;
-    }
-
-    /* .imagenlibros {
-        width: 100%;
-        object-fit: scale-down;
-        object-position: top;
-        overflow:hidden;
-    } */
-
-    .Pasos {
-        text-align: center;
-        padding: 2px;
-        background-image: url(./piano_2.jpg);
-        background-size: cover;
-        display: flex;
-        align-items: flex-end;
-        justify-content: right;
-        background-position: right;
-    }
-
-
-    .ContainerPasos {
-        /*background-color: #c2c9fa;*/
-        width: 90%;
-        justify-content: center;
-        margin: auto;
-    
-    }
-
-    /* .ImagenPiano {
-        width: 100%;
-    } */
-
-
-}
-
-
-
-.logo a {
-    display: block;
-
-}
-/* .logo a img{
-    display: block;
-    width: 100%;
-} */
-
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    z-index: 1;
-    transition: 0.5s;
-
-}
-
-.menu li {
-    list-style-type: none;
-
-}
-.menu li a {
-    color: aliceblue;
-    text-decoration: none;
-    display: block;
-    padding: 15px 25px;
-    font-size: 18px;
-    line-height: 1;
-    transition: 0.3s;
-}
-
-.menu li a:hover {
-    box-shadow: 0 -5px 0px #fff inset, 500px 0 0 rgba(255,255,255,0.03) inset;
-    padding: 10px 10px 15px 15px;  
-}
-
 
 /*OPINIONES*/
 
@@ -295,7 +128,7 @@
 .slide-container{
     max-width: 1120px;
     width: 100%;
-    padding: 40px 0;
+    /* padding: 40px 0; */
   }
   .slide-content{
     margin: 0 40px;
@@ -303,68 +136,9 @@
     border-radius: 25px;
   }
   .kard{
-    border-radius: 25px;
-    background-color: #FFF;
-    height: 240px;
-
+    height: 280px;
   }
-  .image-content,
-  .kard-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 14px;
-    /*border-style: solid;*/
-
-  }
-  .image-content{
-    position: relative;
-    row-gap: 5px;
-    padding: 25px 0;
-  }
-  .overlay{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #4070F4;
-    border-radius: 25px 25px 0 25px;
-  }
-  .overlay::before,
-  .overlay::after{
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: -40px;
-    height: 40px;
-    width: 40px;
-    background-color: #4070F4;
-  }
-  .overlay::after{
-    border-radius: 0 25px 0 0;
-    background-color: #FFF;
-  }
-  .kard-image{
-    position: relative;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    background: #FFF;
-    padding: 3px;
-  }
-  .kard-image .kard-img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid #4070F4;
-  }
-  .name{
-    font-size: 18px;
-    font-weight: 500;
-    color: #333;
-  }
+  
   .description{
     font-size: 14px;
     color: #707070;
@@ -378,6 +152,7 @@
   .swiper-navBtn{
     color: #FF9800;
     transition: color 0.3s ease;
+    margin: 0;
   }
   .swiper-navBtn:hover{
     color: #FF5722;
@@ -386,12 +161,7 @@
   .swiper-navBtn::after{
     font-size: 35px;
   }
-  .swiper-button-next{
-    right: 0;
-  }
-  .swiper-button-prev{
-    left: 0;
-  }
+ 
   .swiper-pagination-bullet{
     background-color: #FF9800;
     opacity: 1;
@@ -399,7 +169,7 @@
   .swiper-pagination-bullet-active{
     background-color: #FF5722;
   }
-.coloresposibles{
+/* .coloresposibles{
   background-color:#ffe7ac;
   background-color:#ffb700;
   background-color:#FF9800; 
@@ -408,7 +178,7 @@
   background-color:#FF5722;
       
   
-}
+} */
   @media screen and (max-width: 768px) {
     .slide-content{
       margin: 0 10px;
